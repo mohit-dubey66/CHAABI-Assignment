@@ -12,6 +12,7 @@ def selection_sort(lst):
         list: The sorted list in ascending order.
     """
     for i in range(len(lst)):
+        
         # Find the minimum element in the unsorted part of the list
         min_index = i
         for j in range(i + 1, len(lst)):
